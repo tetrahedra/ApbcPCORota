@@ -39,7 +39,6 @@ require_once "pco_options.php";		//manages the plugin administration
 
 $NOTOKENS = "You have no tokens, you will need to authorise your PCO account on the Settings page";
 
-/*
 //create consumer tokens
 function createTokens() {
 	global $test_consumer;
@@ -56,7 +55,6 @@ function createTokens() {
 	
 	return true;
 }
-*/
 
 /**
  * Add function to widgets_init that'll load our widget.
